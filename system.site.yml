@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: uk
+uuid: f939b1ed-6d31-4a1d-b5d3-980b364e279d
+name: GSG
+mail: vlad1kk728@ukr.net
+slogan: 'News site'
+page:
+  403: /node/27
+  404: /node/28
+  front: /node/24
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: uk
+mail_notification: ''

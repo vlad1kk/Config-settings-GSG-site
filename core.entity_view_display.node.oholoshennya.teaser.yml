@@ -1,0 +1,33 @@
+uuid: e60840a6-8334-4918-b848-b22c9f318c49
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.oholoshennya.body
+    - field.field.node.oholoshennya.field_kilkist_kimnat
+    - node.type.oholoshennya
+  module:
+    - text
+    - user
+id: node.oholoshennya.teaser
+targetEntityType: node
+bundle: oholoshennya
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_kilkist_kimnat: true
+  langcode: true

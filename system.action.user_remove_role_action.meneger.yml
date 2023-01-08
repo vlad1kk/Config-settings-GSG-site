@@ -1,0 +1,14 @@
+uuid: e241f5b4-1930-4b41-bbe9-c9a2c8530304
+langcode: uk
+status: true
+dependencies:
+  config:
+    - user.role.meneger
+  module:
+    - user
+id: user_remove_role_action.meneger
+label: 'Вилучити роль Meneger у вибраних користувачів'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: meneger

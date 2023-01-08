@@ -1,0 +1,23 @@
+uuid: e15c171c-384b-4169-b360-c5e2cc5095cc
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.newsone
+  module:
+    - text
+id: node.newsone.body
+field_name: body
+entity_type: node
+bundle: newsone
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

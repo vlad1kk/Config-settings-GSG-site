@@ -1,0 +1,20 @@
+uuid: e2f55fb2-c7cf-45b2-9afe-79fe949c6756
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_viddil
+field_name: field_viddil
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

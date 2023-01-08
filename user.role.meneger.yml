@@ -1,0 +1,59 @@
+uuid: 29cdbc0d-0495-44c3-b10f-5bb0d98cb3dc
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+  module:
+    - admin_toolbar_search
+    - comment
+    - contextual
+    - node
+    - system
+id: meneger
+label: Meneger
+weight: 4
+is_admin: null
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access user profiles'
+  - 'administer account settings'
+  - 'administer comment types'
+  - 'administer comments'
+  - 'administer content types'
+  - 'administer nodes'
+  - 'administer permissions'
+  - 'administer users'
+  - 'bypass node access'
+  - 'cancel account'
+  - 'change own username'
+  - 'create article content'
+  - 'create page content'
+  - 'delete all revisions'
+  - 'delete any article content'
+  - 'delete any page content'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'post comments'
+  - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'select account cancellation method'
+  - 'skip comment approval'
+  - 'use admin toolbar search'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view user email addresses'

@@ -1,0 +1,21 @@
+uuid: 22357cc8-fa1c-4537-a4eb-449225d7a587
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_data_narodzhennya
+    - node.type.spivrobitnyk
+  module:
+    - datetime
+id: node.spivrobitnyk.field_data_narodzhennya
+field_name: field_data_narodzhennya
+entity_type: node
+bundle: spivrobitnyk
+label: 'Дата народження'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

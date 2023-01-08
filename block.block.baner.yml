@@ -1,0 +1,25 @@
+uuid: bf9b5796-65d9-4ff1-a876-af4d286dc56d
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:baner:037d3f70-4269-43cb-a26e-688429931b87'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: baner
+theme: olivero
+region: footer_top
+weight: -8
+provider: null
+plugin: 'block_content:037d3f70-4269-43cb-a26e-688429931b87'
+settings:
+  id: 'block_content:037d3f70-4269-43cb-a26e-688429931b87'
+  label: Baner
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

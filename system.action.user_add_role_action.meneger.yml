@@ -1,0 +1,14 @@
+uuid: 1b343938-fec7-472d-9089-01ae7953ac11
+langcode: uk
+status: true
+dependencies:
+  config:
+    - user.role.meneger
+  module:
+    - user
+id: user_add_role_action.meneger
+label: 'Додати роль Meneger до вибраних користувачів'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: meneger

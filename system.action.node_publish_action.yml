@@ -1,0 +1,13 @@
+uuid: ed4eae74-fbdf-4ac7-9db7-5998c4e930e1
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 2B9uF8NL5gutNKSdPRAhhAsDWFZZG1PJOBmx0aBGd_0
+id: node_publish_action
+label: 'Публікувати матеріал'
+type: node
+plugin: 'entity:publish_action:node'
+configuration: {  }

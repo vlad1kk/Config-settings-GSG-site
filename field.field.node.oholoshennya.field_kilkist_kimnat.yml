@@ -1,0 +1,29 @@
+uuid: c1260dc0-6833-4df1-a011-5b114da53b78
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kilkist_kimnat
+    - node.type.oholoshennya
+    - taxonomy.vocabulary.oholoshennya
+id: node.oholoshennya.field_kilkist_kimnat
+field_name: field_kilkist_kimnat
+entity_type: node
+bundle: oholoshennya
+label: 'Кількість кімнат'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      oholoshennya: oholoshennya
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

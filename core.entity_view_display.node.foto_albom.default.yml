@@ -1,0 +1,46 @@
+uuid: 16ce74f7-5c3f-4ecb-b570-db94f3215de4
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.foto_albom.body
+    - field.field.node.foto_albom.field_foto
+    - image.style.thumbnail
+    - node.type.foto_albom
+  module:
+    - colorbox
+    - text
+    - user
+id: node.foto_albom.default
+targetEntityType: node
+bundle: foto_albom
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_foto:
+    type: colorbox
+    label: hidden
+    settings:
+      colorbox_node_style: thumbnail
+      colorbox_node_style_first: ''
+      colorbox_image_style: ''
+      colorbox_gallery: post
+      colorbox_gallery_custom: ''
+      colorbox_caption: auto
+      colorbox_caption_custom: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

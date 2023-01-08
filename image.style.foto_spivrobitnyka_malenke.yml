@@ -1,0 +1,15 @@
+uuid: f23f75dc-ba24-477e-bd67-28ae51430451
+langcode: uk
+status: true
+dependencies: {  }
+name: foto_spivrobitnyka_malenke
+label: 'Фото співробітника маленьке'
+effects:
+  15f69477-ca4d-434b-b83c-16363a20bd4d:
+    uuid: 15f69477-ca4d-434b-b83c-16363a20bd4d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 150
+      height: 150
+      anchor: center-center

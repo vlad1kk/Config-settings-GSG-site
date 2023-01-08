@@ -1,0 +1,25 @@
+uuid: f6c4edf0-a71c-4f07-aab1-c5664f4c1899
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.pidruchnyk-po-drupalu
+  module:
+    - system
+  theme:
+    - olivero
+id: pidruchnikpodrupalu
+theme: olivero
+region: sidebar
+weight: -10
+provider: null
+plugin: 'system_menu_block:pidruchnyk-po-drupalu'
+settings:
+  id: 'system_menu_block:pidruchnyk-po-drupalu'
+  label: 'Підручник по друпалу'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

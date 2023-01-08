@@ -1,0 +1,33 @@
+uuid: 8da3d06e-7c3b-4479-a223-ed0eab05428e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.foto_albom.body
+    - field.field.node.foto_albom.field_foto
+    - node.type.foto_albom
+  module:
+    - text
+    - user
+id: node.foto_albom.teaser
+targetEntityType: node
+bundle: foto_albom
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_foto: true
+  langcode: true

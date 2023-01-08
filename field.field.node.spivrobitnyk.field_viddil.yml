@@ -1,0 +1,29 @@
+uuid: 5c231777-4681-4797-a043-caadc1387d5b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_viddil
+    - node.type.spivrobitnyk
+    - taxonomy.vocabulary.viddily
+id: node.spivrobitnyk.field_viddil
+field_name: field_viddil
+entity_type: node
+bundle: spivrobitnyk
+label: Відділ
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      viddily: viddily
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

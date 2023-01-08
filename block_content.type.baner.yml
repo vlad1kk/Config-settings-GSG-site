@@ -1,0 +1,8 @@
+uuid: 52da8c35-4972-4211-8331-276132c045a1
+langcode: uk
+status: true
+dependencies: {  }
+id: baner
+label: Банер
+revision: 0
+description: ''

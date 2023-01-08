@@ -1,0 +1,23 @@
+uuid: 7b22c6fe-066a-49e7-af42-9a415e3ed24f
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: kupyty
+label: Купити
+type: 'canonical_entities:node'
+pattern: 'buy/[node:title]'
+selection_criteria:
+  d42f8f92-e81e-4b51-b040-fd78d5f663b4:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: d42f8f92-e81e-4b51-b040-fd78d5f663b4
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      kuplyu: kuplyu
+selection_logic: and
+weight: -5
+relationships: {  }

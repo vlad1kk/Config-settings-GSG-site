@@ -1,0 +1,38 @@
+uuid: 15cdd0ec-cfa4-4d44-bfb5-dfbfdc6aaaf9
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_foto_spivrobitnyka
+    - node.type.spivrobitnyk
+  module:
+    - image
+id: node.spivrobitnyk.field_foto_spivrobitnyka
+field_name: field_foto_spivrobitnyka
+entity_type: node
+bundle: spivrobitnyk
+label: 'Фото співробітника'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: photos
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

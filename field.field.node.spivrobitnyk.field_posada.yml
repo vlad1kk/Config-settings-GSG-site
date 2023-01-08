@@ -1,0 +1,19 @@
+uuid: ba337496-3005-46d9-96c4-fe413af29567
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_posada
+    - node.type.spivrobitnyk
+id: node.spivrobitnyk.field_posada
+field_name: field_posada
+entity_type: node
+bundle: spivrobitnyk
+label: Посада
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

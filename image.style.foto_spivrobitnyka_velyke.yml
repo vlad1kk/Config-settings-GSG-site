@@ -1,0 +1,15 @@
+uuid: 2604b5e8-26bc-4869-bb51-38a9beaa79a6
+langcode: uk
+status: true
+dependencies: {  }
+name: foto_spivrobitnyka_velyke
+label: 'Фото співробітника велике'
+effects:
+  2997faaf-89a9-4cfa-94e3-6ea9a7a12b20:
+    uuid: 2997faaf-89a9-4cfa-94e3-6ea9a7a12b20
+    id: image_scale
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      upscale: false

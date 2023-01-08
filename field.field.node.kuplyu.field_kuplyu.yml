@@ -1,0 +1,29 @@
+uuid: 09488605-3d57-40b6-b4b3-961d07160dd2
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kuplyu
+    - node.type.kuplyu
+    - taxonomy.vocabulary.kuplyu
+id: node.kuplyu.field_kuplyu
+field_name: field_kuplyu
+entity_type: node
+bundle: kuplyu
+label: Куплю
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      kuplyu: kuplyu
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

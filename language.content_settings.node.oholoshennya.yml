@@ -1,0 +1,11 @@
+uuid: f7fc7188-83d0-4fb2-bffd-64478bd750ab
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.oholoshennya
+id: node.oholoshennya
+target_entity_type_id: node
+target_bundle: oholoshennya
+default_langcode: site_default
+language_alterable: false

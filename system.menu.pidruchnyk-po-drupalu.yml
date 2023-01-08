@@ -1,0 +1,8 @@
+uuid: 26d614be-8308-40fc-b7e9-de4294be012a
+langcode: uk
+status: true
+dependencies: {  }
+id: pidruchnyk-po-drupalu
+label: 'Підручник по друпалу'
+description: ''
+locked: false

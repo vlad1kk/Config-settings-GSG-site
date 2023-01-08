@@ -1,0 +1,25 @@
+uuid: 7dd2cad8-f836-410c-848c-af265e505713
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - olivero
+id: nizhniykolontitul
+theme: olivero
+region: sidebar
+weight: -7
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Нижній колонтитул'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

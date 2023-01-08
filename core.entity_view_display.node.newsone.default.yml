@@ -1,0 +1,29 @@
+uuid: 6e94ebf2-5ae8-4733-9bf7-dcc15597d69f
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.node.newsone.body
+    - node.type.newsone
+  module:
+    - text
+    - user
+id: node.newsone.default
+targetEntityType: node
+bundle: newsone
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,9 @@
+uuid: d12f98ab-6586-458c-abf6-70c1a4c36077
+langcode: uk
+status: true
+dependencies: {  }
+id: en
+label: English
+direction: ltr
+weight: 1
+locked: false

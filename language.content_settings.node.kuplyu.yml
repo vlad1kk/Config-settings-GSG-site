@@ -1,0 +1,11 @@
+uuid: 715b8562-2d77-4ab8-890f-d19694cdf8b1
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.kuplyu
+id: node.kuplyu
+target_entity_type_id: node
+target_bundle: kuplyu
+default_langcode: site_default
+language_alterable: false

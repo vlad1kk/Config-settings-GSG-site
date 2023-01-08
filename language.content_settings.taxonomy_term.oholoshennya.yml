@@ -1,0 +1,11 @@
+uuid: b7813301-f35b-4a89-baa8-c58ae90aa69e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.oholoshennya
+id: taxonomy_term.oholoshennya
+target_entity_type_id: taxonomy_term
+target_bundle: oholoshennya
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,14 @@
+uuid: 7772550f-25fa-4b73-9c12-644eabc141ea
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Зворотний зв''язок вебсайту'
+recipients:
+  - vlad1kk728@ukr.net
+reply: ''
+weight: 0
+message: 'Ваше повідомлення було надіслано.'
+redirect: ''

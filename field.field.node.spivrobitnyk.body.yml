@@ -1,0 +1,23 @@
+uuid: 5a95026a-a488-484d-a276-b1a76500ca32
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.spivrobitnyk
+  module:
+    - text
+id: node.spivrobitnyk.body
+field_name: body
+entity_type: node
+bundle: spivrobitnyk
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,22 @@
+uuid: a37246c8-55e8-4187-b47d-cece587c53b0
+langcode: uk
+status: true
+dependencies:
+  module:
+    - menu_ui
+  enforced:
+    module:
+      - blog
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: 'main:'
+_core:
+  default_config_hash: IItH_Wf2_RJ2NVXnRW7GXWQVY1lehZyGCaI7fgSkMDo
+name: 'Blog post'
+type: blog_post
+description: 'Використовуйте для багатокористувацьких блоґів. Кожен користувач отримує персональний блоґ.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

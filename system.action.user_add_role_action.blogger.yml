@@ -1,0 +1,14 @@
+uuid: d3c1e9b1-d83c-4a09-8105-99f0a07c782c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - user.role.blogger
+  module:
+    - user
+id: user_add_role_action.blogger
+label: 'Додати роль blogger до вибраних користувачів'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: blogger

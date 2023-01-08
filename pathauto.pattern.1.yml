@@ -1,0 +1,22 @@
+uuid: 7331adcb-c641-4938-bc49-53815f848259
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: '1'
+label: Новини
+type: 'canonical_entities:node'
+pattern: 'news/[node:title]'
+selection_criteria:
+  efadee15-c340-434d-8f19-6cb62c8a7369:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: efadee15-c340-434d-8f19-6cb62c8a7369
+    context_mapping:
+      node: node
+    bundles:
+      news: news
+selection_logic: and
+weight: -5
+relationships: {  }

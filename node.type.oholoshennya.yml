@@ -1,0 +1,19 @@
+uuid: bf098b92-bacc-4121-8205-637604121454
+langcode: uk
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - footer
+    parent: 'main:'
+name: Оголошення
+type: oholoshennya
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

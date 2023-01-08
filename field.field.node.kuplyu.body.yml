@@ -1,0 +1,23 @@
+uuid: 706f9dd9-3f3c-4be5-b525-9138072cbaf7
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.kuplyu
+  module:
+    - text
+id: node.kuplyu.body
+field_name: body
+entity_type: node
+bundle: kuplyu
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

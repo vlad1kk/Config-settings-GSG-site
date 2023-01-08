@@ -1,0 +1,14 @@
+uuid: 4db500d4-cfc4-4c54-8a71-0cf16a8114b3
+langcode: uk
+status: true
+dependencies:
+  config:
+    - user.role.blogger
+  module:
+    - user
+id: user_remove_role_action.blogger
+label: 'Вилучити роль blogger у вибраних користувачів'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: blogger

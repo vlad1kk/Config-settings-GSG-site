@@ -1,0 +1,13 @@
+uuid: 09f91f36-e4cd-4ead-bcab-b79fbd8be362
+langcode: uk
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: vpBH8OmL4sdesCdeZLsW8KOutB5gkbreWJbfjhfFKaQ
+id: comment_delete_action
+label: 'Видалити коментар'
+type: comment
+plugin: 'entity:delete_action:comment'
+configuration: {  }

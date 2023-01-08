@@ -1,0 +1,25 @@
+uuid: 1c99a4ef-b88e-40c0-af6b-f77438b9fc34
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - olivero
+id: instrumenti
+theme: olivero
+region: sidebar
+weight: -8
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Інструменти
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

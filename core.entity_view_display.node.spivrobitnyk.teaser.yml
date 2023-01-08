@@ -1,0 +1,51 @@
+uuid: 0bc67c6c-7c6c-40d2-a76c-8f5b3e8bb54c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.spivrobitnyk.body
+    - field.field.node.spivrobitnyk.field_data_narodzhennya
+    - field.field.node.spivrobitnyk.field_foto_spivrobitnyka
+    - field.field.node.spivrobitnyk.field_posada
+    - field.field.node.spivrobitnyk.field_viddil
+    - image.style.foto_spivrobitnyka_malenke
+    - node.type.spivrobitnyk
+  module:
+    - image
+    - text
+    - user
+id: node.spivrobitnyk.teaser
+targetEntityType: node
+bundle: spivrobitnyk
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_foto_spivrobitnyka:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: foto_spivrobitnyka_malenke
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_data_narodzhennya: true
+  field_posada: true
+  field_viddil: true
+  langcode: true

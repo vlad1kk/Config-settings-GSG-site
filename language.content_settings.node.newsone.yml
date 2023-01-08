@@ -1,0 +1,11 @@
+uuid: 1ccef614-1f74-4fbc-b19a-baeb969986cb
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.newsone
+id: node.newsone
+target_entity_type_id: node
+target_bundle: newsone
+default_langcode: site_default
+language_alterable: false

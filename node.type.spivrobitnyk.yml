@@ -1,0 +1,18 @@
+uuid: 8da1e3da-edc0-4bdb-babc-c2f0ddaa7adb
+langcode: uk
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Співробітник
+type: spivrobitnyk
+description: 'Сутність наших співробітників'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

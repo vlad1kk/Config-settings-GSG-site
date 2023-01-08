@@ -1,0 +1,11 @@
+uuid: d9c25bad-17fc-43c8-8992-b49a27cb10d2
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.spivrobitnyk
+id: node.spivrobitnyk
+target_entity_type_id: node
+target_bundle: spivrobitnyk
+default_langcode: site_default
+language_alterable: false

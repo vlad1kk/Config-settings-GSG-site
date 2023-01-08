@@ -1,0 +1,11 @@
+uuid: a1c7a81b-6d6f-4b7b-8d2b-0e0c8c153037
+langcode: uk
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.viddily
+id: taxonomy_term.viddily
+target_entity_type_id: taxonomy_term
+target_bundle: viddily
+default_langcode: site_default
+language_alterable: false

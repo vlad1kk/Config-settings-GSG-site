@@ -1,0 +1,23 @@
+uuid: 0730c566-db13-4faf-b455-e8aceaaf57fe
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.foto_albom
+  module:
+    - text
+id: node.foto_albom.body
+field_name: body
+entity_type: node
+bundle: foto_albom
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
